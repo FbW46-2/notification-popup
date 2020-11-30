@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.notification {
+    background-color: red;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+ 
+  
+    text-align: center;
+    padding: 16px 32px;
+    
+}
+
+.close {
+    position: absolute;
+    border: none;
+    background: none;
+    top: -16px;
+    right: -16px;
+}
+
+.close img {
+    width: 32px;
+    height: 32px;
+}
