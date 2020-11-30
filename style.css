@@ -1,0 +1,39 @@
+html {
+    background-color: peachpuff;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+
+.notification {
+    background-color: rgba(199, 23, 23, 0.651);
+    padding: 25px;
+    font-weight: bold;
+    position: fixed;
+    /* border: 2px solid palegreen; */
+    bottom: 25px;
+    right: 25px;
+    
+}
+
+/* x icon is an img and here are the requested size and position inside the button */
+button {
+    visibility: hidden;
+}
+
+button img {
+    visibility: visible;
+    width: 32px;
+}
+
+/* positioning outside and on top of button element */
+.close {
+    position: absolute;
+    top: -20px;
+    right: -25px;
+}    
+    
+
+
