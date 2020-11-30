@@ -2,7 +2,7 @@
 
 Use the HTML code and the class provided to create the small notification popup like in the screenshot.
 
-![](result.png)
+![result](/uib-notification-popup/imgeez/result.png)
 
 1. don't change anything from the HTML code, just use the same classes or selectors to create the CSS style
 1. no matter how big the browser window is, the notification will always appear in the bottom right corner
