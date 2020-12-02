@@ -4,7 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .notification {
+        background: tomato;
+        bottom: 1.5rem;
+        padding: 1.5rem;
+        position: fixed;
+        right: 1.5rem;
+      }
+
+      .notification .close {
+        background: none;
+        border: 0;
+        height: 32px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: -16px;
+        top: -16px;
+        width: 32px;
+      }
+
+      .close img {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <div class="notification">
